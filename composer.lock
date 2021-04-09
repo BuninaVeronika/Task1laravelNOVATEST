@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "793f2ca3032ff3c76ed81b402ec46f8d",
+    "content-hash": "3430aecf8646f4def73c7182d8b5e525",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -807,16 +807,16 @@
         },
         {
             "name": "encore/laravel-admin",
-            "version": "dev-master",
+            "version": "v1.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/z-song/laravel-admin.git",
-                "reference": "212639a354d630613978eba43b0dcbb64496c2fb"
+                "reference": "6ddd381a9f4928b6c2175dea297e6a8b385d8d28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/212639a354d630613978eba43b0dcbb64496c2fb",
-                "reference": "212639a354d630613978eba43b0dcbb64496c2fb",
+                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/6ddd381a9f4928b6c2175dea297e6a8b385d8d28",
+                "reference": "6ddd381a9f4928b6c2175dea297e6a8b385d8d28",
                 "shasum": ""
             },
             "require": {
@@ -836,7 +836,6 @@
                 "intervention/image": "Required to handling and manipulation upload images (~2.3).",
                 "spatie/eloquent-sortable": "Required to built orderable gird."
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -876,9 +875,9 @@
             ],
             "support": {
                 "issues": "https://github.com/z-song/laravel-admin/issues",
-                "source": "https://github.com/z-song/laravel-admin/tree/master"
+                "source": "https://github.com/z-song/laravel-admin/tree/v1.8.11"
             },
-            "time": "2021-04-02T05:04:12+00:00"
+            "time": "2020-11-15T02:55:51+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -7598,9 +7597,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "encore/laravel-admin": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
