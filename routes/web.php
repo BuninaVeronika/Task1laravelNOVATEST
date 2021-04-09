@@ -34,15 +34,15 @@ Route::post('/auth/edit', 'EditingUser@postEdit')->middleware('auth')->name('aut
 
 //Доступ админа
 
-Route::get('/admin/admin_panel', 'Admintype@getPanel')->middleware('auth', 'isadmin')->name('admin.admin_panel');
+Route::get('/admin/admin_panel', 'Admintype@getPanel')->middleware('auth','isadmin')->name('admin.admin_panel');
 
-Route::post('/admin/admin_panel', 'Admintype@postType')->middleware('auth', 'isadmin')->name('admin.admin_panel');
+Route::post('/admin/admin_panel', 'Admintype@postType')->middleware('auth','isadmin')->name('admin.admin_panel');
 
-Route::get('/admin/admin_news', 'Adminnews@getPanel')->middleware('auth', 'isadmin')->name('admin.admin_news');
+Route::get('/admin/admin_news', 'Adminnews@getPanel')->middleware('auth','isadmin')->name('admin.admin_news');
 
-Route::post('/admin/admin_news', 'Adminnews@postNews')->middleware('auth', 'isadmin')->name('admin.admin_news');
+Route::post('/admin/admin_news', 'Adminnews@postNews')->middleware('auth','isadmin')->name('admin.admin_news');
 
-Route::get('/admin/edit_news', 'EditNews@editPost')->middleware('auth', 'isadmin')->name('admin.edit_news');
+Route::get('/admin/edit_news', 'EditNews@editPost')->middleware('auth','isadmin')->name('admin.edit_news');
 
-Route::post('/admin/edit_news', 'EditNews@editNews')->middleware('auth', 'isadmin')->name('admin.edit_news');
+Route::post('/admin/edit_news', 'EditNews@editNews')->middleware('auth','isadmin')->name('admin.edit_news');
 

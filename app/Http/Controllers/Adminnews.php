@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use App\News;
 use App\News_type;
 use Illuminate\Http\Request;
@@ -16,7 +17,7 @@ class Adminnews extends Controller
     public function getPanel()
     {
         $type_title=News_type::all();
-        return view('admin.admin_news',compact('type_title'));
+        return view('.admin.admin_news',compact('type_title'));
 
     }
 
